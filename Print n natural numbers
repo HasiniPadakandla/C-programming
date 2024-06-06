@@ -1,3 +1,6 @@
+Program to print n natural numbers (normal method)
+output format : 1 2 3 4 5
+
 #include <stdio.h>
 
 void main()
