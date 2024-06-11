@@ -1,0 +1,18 @@
+Program to print natural no's in reverse using recursion
+CODE:
+#include<stdio.h>
+void display(int m)
+{
+    if(m==0)
+    return;
+    printf("%d ",m);
+    display(m-1);
+}
+void main()
+{
+    int n;
+    scanf("%d",&n);
+    display(n);
+}
+INPUT: 5
+OUTPUT: 5 4 3 2 1
