@@ -1,0 +1,18 @@
+Sum of n natural numbers
+input 5
+output 15     // 5+4+3+2+1=15
+
+code:
+#include<stdio.h>
+int sum(int m)
+{
+    if(m==0)
+    return 0;
+    return m+sum(m-1);
+} 
+void main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("%d",sum(n));
+}
